@@ -12,7 +12,7 @@ public class InteractifPlusMoins {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		final int max = 100;
 		int essai = 0;
 
@@ -26,7 +26,7 @@ public class InteractifPlusMoins {
 		int nbrRandom = (int) (Math.random() * max);
 
 		
-		int numSaisi = sc.nextInt();
+		int numSaisi = scanner.nextInt();
 
 		
 		while (numSaisi < nbrRandom || numSaisi > nbrRandom) {
@@ -40,7 +40,7 @@ public class InteractifPlusMoins {
 			essai++;
 
 		
-			numSaisi = sc.nextInt();
+			numSaisi = scanner.nextInt();
 		}
 
 		if (numSaisi == nbrRandom) {
