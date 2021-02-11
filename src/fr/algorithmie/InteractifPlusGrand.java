@@ -12,15 +12,15 @@ import java.util.Scanner;
 public class InteractifPlusGrand {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		int[] tab = new int[10];
 		int maxValeur = 0;
 
 		for (int i = 0; i < tab.length; i++) {
 			System.out.println("Veillez saisir un chiffre");
-			tab[i] = sc.nextInt();
+			tab[i] = scanner.nextInt();
 
 			if (tab[i] > maxValeur) {
 				maxValeur = tab[i];

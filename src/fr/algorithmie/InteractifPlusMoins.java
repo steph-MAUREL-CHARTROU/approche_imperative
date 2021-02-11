@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class InteractifPlusMoins {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner scanner = new Scanner(System.in);
 		final int max = 100;
 		int essai = 0;
@@ -22,7 +22,7 @@ public class InteractifPlusMoins {
 		System.out.println( "Saisissez un nombre compris entre 1 et 100 !");
 				
 
-		//  Méthode Ramdom
+		// Ramdomizer
 		int nbrRandom = (int) (Math.random() * max);
 
 		

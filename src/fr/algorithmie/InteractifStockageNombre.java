@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class InteractifStockageNombre {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 
 		int[] tab = new int[3];
@@ -27,7 +27,7 @@ public class InteractifStockageNombre {
 			System.out.println("Choix 1 : Ajouter un nombre // Choix 2 : Afficher les nombre existants");
 			choix = sc.nextInt();
 
-			if (choix == option1) { // option 1
+			if (choix == option1) { 
 
 				if (i >= tab.length - 1) {
 					int[] tab2 = new int[tab.length + 1];
